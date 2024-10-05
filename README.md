@@ -56,7 +56,7 @@ Event Management is a responsive web application that allows users to manage eve
    npm run dev
    ```
 
-3. Open your browser and go to `http://localhost:3000` to view the application.
+3. Open your browser and go to `https://event-management-client-9ulipy0p3-vanshdobariyas-projects.vercel.app/` to view the application.
 
 ## Usage
 - Register for a new account or log in to access the event management features.
@@ -74,7 +74,7 @@ Contributions are welcome! Please follow these steps:
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
-For any questions or feedback, feel free to reach out to [Vansh Dobariya](mailto:your-email@example.com).
+For any questions or feedback, feel free to reach out to [Vansh Dobariya](mailto:vanshbdobariya1312@example.com).
 
 ---
 Feel free to check out the [GitHub Repository](https://github.com/VanshBD/Event-Management) for more details.

@@ -213,7 +213,7 @@ const HomePage = () => {
             />
           ))
         ) : (
-          <p>No events available</p>
+          <p className="text-white">No events available</p>
         )}
       </div>
     </div>
