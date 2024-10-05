@@ -13,7 +13,9 @@ const PORT = Config.PORT || 5000;
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cors());
-
+app.get('/',(req,res)=>{
+  res.status(200).send('server started')
+})
 // Serve static files from the uploads folder inside src
 app.use("/uploads", express.static(path.join(__dirname, "uploads"))); // Updated to serve files from src/uploads
 
