@@ -100,7 +100,7 @@ const EventDetails = () => {
         {event.imageUrl && (
           <div className="lg:w-1/2">
             <img
-              src={`https://swiftrut-task-4.onrender.com${event.imageUrl}`}
+              src={`https://event-management-server-q6w5fz4go-vanshdobariyas-projects.vercel.app/${event.imageUrl}`}
               alt={event.title}
               className="w-full h-64 lg:h-80 object-cover rounded-lg shadow-md"
             />

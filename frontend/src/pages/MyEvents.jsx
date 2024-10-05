@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { FaEdit, FaTrashAlt } from "react-icons/fa";
 import api from "../api/api";
 
-const BASE_URL = "https://swiftrut-task-4.onrender.com"; // Adjust this as necessary
+const BASE_URL = "https://event-management-server-q6w5fz4go-vanshdobariyas-projects.vercel.app/"; // Adjust this as necessary
 
 const MyEvents = () => {
   const [events, setEvents] = useState([]);

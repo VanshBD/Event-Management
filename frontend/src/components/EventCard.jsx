@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { HiCalendar, HiUserGroup, HiBadgeCheck } from "react-icons/hi"; // React Icons
 
 // Base URL for the backend
-const BASE_URL = "https://swiftrut-task-4.onrender.com"; // Ensure this matches your backend's URL
+const BASE_URL = "https://event-management-server-q6w5fz4go-vanshdobariyas-projects.vercel.app/"; // Ensure this matches your backend's URL
 
 const EventCard = ({
   id,

@@ -2,7 +2,7 @@ import axios from "axios";
 // change i end at time of submeting and put backend link in api base url 
 // Create an Axios instance
 const api = axios.create({
-  baseURL: "https://swiftrut-task-4.onrender.com/api", // Make sure this matches your backend URL
+  baseURL: "https://event-management-server-q6w5fz4go-vanshdobariyas-projects.vercel.app/api", // Make sure this matches your backend URL
 });
 
 // Add a request interceptor to include token in requests (if necessary)
