@@ -56,7 +56,8 @@ Event Management is a responsive web application that allows users to manage eve
    npm run dev
    ```
 
-3. Open your browser and go to `https://event-management-client-9ulipy0p3-vanshdobariyas-projects.vercel.app/` to view the application.
+3. Open your browser and go to `https://event-management-client-igc1znoa7-vanshdobariyas-projects.vercel.app/` to view the application.
+
 
 ## Usage
 - Register for a new account or log in to access the event management features.
