@@ -38,7 +38,6 @@ export const AuthProvider = ({ children }) => {
         email,
         password,
       });
-      console.log(response);
       const { token } = response.data;
       localStorage.setItem("token", token);
       const decoded = jwtDecode(token);

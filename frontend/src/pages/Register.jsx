@@ -12,18 +12,10 @@ const Register = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
-    // Validate fields
-    if (!username || !email || !password) {
-      setErrorMessage("All fields are required.");
-      return;
-    }
-
     try {
       await register(username, email, password);
       navigate("/");
     } catch (error) {
-      console.error("Registration error:", error);
       setErrorMessage(error.message);
     }
   };
