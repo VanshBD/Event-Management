@@ -18,11 +18,11 @@ const HomePage = () => {
   useEffect(() => {
     const fetchEvents = async () => {
       try {
-        const response = await api.get("/events/all");
+        const response = await api.get("/events");
         const fetchedEvents = response.data;
         setEvents(fetchedEvents); // Set the fetched events in state
         setFilteredEvents(fetchedEvents); // Initially, no filters applied
-
+        console.log(response.data);
         // Extract unique locations from the events
         const uniqueLocations = [
           ...new Set(fetchedEvents.map((event) => event.location)),
